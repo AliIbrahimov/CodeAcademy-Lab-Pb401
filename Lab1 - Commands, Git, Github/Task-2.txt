@@ -1,0 +1,7 @@
+1. Githubda yeni private repository yaradın.
+2. 'master' brancha "MyFirstLabTask" folderini push edin.
+3. 'main' branchi yaradin.
+4. "MyFirstLabTask" folderində 'Readme.md' faylını yaradın , "wwwroot" daxilindəki 'myPhoto.jpg' və "Controllers" daxilindəki 'DefaultController.txt' 
+        fayllarını silib main brancha push edin.
+        
+6. 'master' branchinə merge edin.

@@ -1,0 +1,6 @@
+1. Yoldaşınızı collabrate edin.
+2. Collabrate olunan tərəf projecti clone etsin.
+3. Əlavə olunmuş tərəf öz adına uyğun branch yaratsın və "NewFeatue.txt" faylı yaradıb öz branchinə push etsin.
+4. 'Master' e merge edin
+5. Collabrate edən "MyFirstLabTask" folderi daxilində "Program.cs" faylını yaradıb main brancinə push edib masterə merge etsin.
+6. Collabrate olunmuş tərəf pull request edib masterdəki dəyişiklikləri öz localına gətirsin.

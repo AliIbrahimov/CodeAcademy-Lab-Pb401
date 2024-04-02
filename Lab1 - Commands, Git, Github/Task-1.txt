@@ -1,0 +1,4 @@
+1. Desktopda gitbash vasitəsilə "MyFirstLabTask" adlı folder yaradıb daxil olun.
+2. Folder daxilində "wwwroot" və "Controllers" folderlərini yaradın.
+3. "wwwroot" folderinə daxil olub 'style.css','main.js', 'myPhoto.jpg' fayllarını yaradın.
+4. "Controllers" folderinə daxil olub 'HomeController.txt' və 'DefaultController.txt' fayllarını yaradın.
