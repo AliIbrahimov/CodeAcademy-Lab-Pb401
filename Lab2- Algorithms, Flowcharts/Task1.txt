@@ -3,5 +3,4 @@
 (0<Bərk, 0<Maye<100, 100<Qaz)
 3. 100-lük sistemdə daxil edilən bala görə qiymət verən flowchart qurun.
 (0-50-->F,51-60-->E,61-70-->D,71-80-->C,81-90-->B,91-100-->A)
-4. 0-dan 50-ə qədər olan cüt ədədlərin cəmini tapan flowchart qurun.
-5. Login register məntiqini qurun.
+4. Login register məntiqini qurun.
