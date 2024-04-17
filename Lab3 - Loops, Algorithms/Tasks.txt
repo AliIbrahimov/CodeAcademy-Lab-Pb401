@@ -1,6 +1,6 @@
 1. 100-ə qədər olan bütün ikirəqəmli tək ədədləri ekrana yazdırın.
 2. Daxil edilən ədədin faktorialı 5-ə tam bölünürsə ekrana : "{daxil edilən ədəd}/5={cavab}" yazısını yazdırın,bölünmürsə false yazılsın.
-3. Switch case vasitəsilə kalkuliyator yazın.
+3. Switch case vasitəsilə sadə kalkuliyator yazın.
 4. Daxil edilən ədədin hər hansı ədədin kvadratıdırsa true  və ədəd ekrana yazılsın.(16 daxil edilibsə: true, 4 yazılsın).
 5. User credentials yoxlayan proqram yazın.(Login məntiqi username və password əvvəlcədən təyin olunur).
 6. İlk 11 fibonachi ədədlərini ekrana yazdırın.(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...)
