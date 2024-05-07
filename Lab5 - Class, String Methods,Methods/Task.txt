@@ -1,0 +1,57 @@
+1. Customer classı yaradın. Fieldləri: Name,Surname,BirthYear,Age,Username,Email,IsActive.
+    1.1) Obyekt yaradılan anda Name, Surname, BirthYear istənilməlidir.
+    
+    1.2) Username və Email generate etmək üçün ayrı-ayrı metodlar olmalıdır. Username istifadəçinin tam adı və 
+    soyadının ilk 4 hərfindən ibarət olmalı, email isə istifadəçinin tam adı,soyadı,yaşı 
+    və sonda @mail.com olmalıdır.Inputlardan aslı olmayaraq username və emailin butun hərfləri kiçik hərflə yazılmalıdır.
+    Məsələn: "ALi","Ibrahimov",2012 daxil edilib,Username:aliibra və Email: aliibrahimov12@mail.com olmalıdır
+   
+    1.3) Age və IsActive təyin etmək üçün ayrı-ayrı metodlar olmalıdır.
+    Əgər istifadəçinin yaşı 16dan böyükdürsə IsActive = true əks halda false olmalıdır.
+
+    1.4) İstifadəçinin ad, soyad, yaş, Username,email və aktiv profil olub olmadığını qaytaran metod yazın.
+    (Yuxarıdakı nümunəyə əsasən : "Ali Ibrahimov 2012, aliibra, aliibrahimov12@mail.com, 12 False" qaytarmalıdır.)
+
+    Note: 1.2-ci tapşırıqda string metodlarından istifadə edin.
+
+2. CustomerFile classı yaradın. Fieldləri Name,FileExtension,Size, IsImage.
+    2.0) Obyekt yaradılan anda Name və Size istənilsin.(Size kb qəbul edilir)
+    2.1) File Extensionı təyin edən metod yazın. Məsələn : "salam.txt" daxil edilibsə .txt qaytarsın, əgər uyğun path deilsə "Invalid path" qaytarsın.
+    2.2) Extesionun photo üçün olub olmadığını yoxlayan metod yazın. Əgər
+     { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp", ".svg", ".ico" } bunlardan biridirsə İsİmage=true deilsə false olsun.
+    2.3) Göndərilən size kb olaraq qəbul edilir, mb-a çevirən metod yazın.  Note : kb/1024   nöqtədən sonra 2 element görünsün(math.round)
+    2.4) Göndərilən fileın ölçüsü max 5 mb olmalıdır. Yoxlamaq üçün metod yazın. 
+    2.5) Faylın adını, ölçüsünün(mb ilə), extensionunu, photo olub olmadığını, 5mbdan az olub olmadığını ekrana yazdlran metod yazın.
+
+
+
+Algorithm :
+Hər birini metodla yazın.
+
+1.Verilmiş cümlədəki sözlərin sayını tapın.
+2.Daxil edilən stringdəki saitləri ? işarəsi ilə əvəz edin.
+3.Daxil edilən stringi tərsinə çevirin.
+4.Verilən strigi sözlər yerində qalmaqla tərsinə çevirin.(h)
+
+For dragons:
+    Aşağıdakı ardıcıllığın n-ci elementini verən kod hissəsini yazın.
+
+    Ardıcıllıq 1 ilə başlayır. Növbəti elementlərin biri növbəli şəkildə əvvəlki elementin üzərinə 2 gəlməklə, bir sonrakı element isə əvvəlki elementi 2-yə vurmaqla alınır:
+
+    1, 3, 6, 8, 16, 18, 36, 38, 76 …
+
+    Yəni bu ardıcıllıqda
+            1+2=3,
+            3*2=6,
+            6+2,
+            8*2=16,.....
+
+    Bu ardıcıllığı 1-dən başlayaraq nömrələsək 1-ci elementin dəyəri 1, 2-ci elementin dəyəri 3,  5-ci elementin dəyəri 16, 6-cı elementin dəyəri 18 olar və s. Bizə elə bir method yazmaq lazımdır ki, həmin method ardıcıllığın sıra nömrəsini alsın, bizə həmin sıra nömrəsindəki elementin dəyərini qaytarsın. Məsələn,
+
+    int GetElementByIndex(int index)
+
+    {
+
+         // implement this method
+
+    }
