@@ -1,0 +1,6 @@
+Simple Banking App yazırıq.
+
+    Account abstract classımız var və propertyləri: Name, Surname, AccountNumber(string), Balance, Transactions(string[]),TransactionCount.
+Abstract metodlar: Deposit,Withdraw, CalculateInterest.
+    Vip və normal accountlarımız mövcuddur. Vip user hər blans artırmasında artırdığı məbləğin 2%ni cashback olaraq qayıdır,faiz dərəcəsi 0.5%dir və gündəlik maksimum 10 tranzaksiya həyata keçirə bilər.
+    Normal accountda faiz dərəcəsi 0.1% təşkil edir və cashback yoxdur.Gündəlik maksimum tranzaksiya 5dir.
