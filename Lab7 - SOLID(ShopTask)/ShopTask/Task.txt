@@ -1,0 +1,14 @@
+// Shop classiniz olsun icinde productlarin arrayi olsun. TotalIncome propertysi olsun
+    // Bundan elave COffee, Tea classlariniz olsun Name ve count ve price proplari olsun ikisinde de .
+    // Shopdaki produclar yanliz Tea ve Cofee ola biler.Console application acilanda
+    // menuda 2 secim cixsin. 1. Product elave edin; 2. Product satin;
+    // 1 daxil etdikde istifadeciden Name , Price  ,count ve producttype alib productlara elave olunsun
+    // producttype olaraq c ve ya t daxil edebiler. eger c daxil edibse Coffee , t daxil edibse Tea obyekti elave edin
+    // ve yeniden menuya qayitsin. Name-i eyni olan product elave oluna bilmesin. eger Americano adli product
+    // varsa ikinci Americano producti elave etmek isteseler. Bu Product artiq var cap olunsun
+    // 2. daxil etdikde istifadeciden satilacaq mehsulun adini ve sayini alinib satis olunsun
+   // ve yeniden menu acilsin
+    // ve TotalIncome buna uygun artsin. Meselen new Coffee{Name: "Americano", Price : 6.50, Count : 3}
+    // productu elave etmisem. 2 dene americano satisi olunsa 13 manat gelirim. olmalidir.
+   // ve Americanonun sayi 1 -e dusmelidir, Eger istifadecinin istediyi count qeder yoxdursa. yoxdur yazilib
+   // yeniden menuya qayitmalidir
