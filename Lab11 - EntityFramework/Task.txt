@@ -1,0 +1,8 @@
+SimpleBlogApp
+
+Post 
+Comment
+
+SOLİD və OOP Prinsiplərinə düzgün əməl olunmuş şəkildə yazılmalıdır. Postun İD-si İNT, Comment GUİD olaraq saxlanılmalıdır.
+
+Required Fields ---> CreatedDate, UpdatedDate,DeletedDate, IsDeleted
