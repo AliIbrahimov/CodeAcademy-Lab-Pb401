@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.moodboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 100px;
+    margin: auto;
+}
+
+.box {
+    position: relative;
+    background-color: #ccc;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.box1 {
+    flex: 1 1 200px;
+    height: 150px;
+
+}
+
+.box2 {
+    flex: 1 1 300px;
+    height: 200px;
+}
+
+
+.box3 {
+    flex: 1 1 250px;
+    height: 250px;
+}
+
+.box4 {
+    flex: 1 1 250px;
+    height: 150px;
+}
+
+.box5 {
+    flex: 1 1 250px;
+    height: 150px;
+}
+
+.box6 {
+    flex: 1 1 250px;
+    height: 250px;
+}
+
+.box7 {
+    flex: 1 1 200px;
+    height: 150px;
+}
+
+.box8 {
+    flex: 1 1 250px;
+    height: 200px;
+}
+
+.box9 {
+    flex: 1 1 3000px;
+    height: 200px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
